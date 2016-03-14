@@ -6,16 +6,15 @@ worked on at the Winter 2016 cohort, DS6.  Metis is an immersive program focused
 Here's what you can find in this repository:
 
 #### Projects
-Just as it says, these are projects that I've worked on at Metis.  There are 4 projects focused on applying the various machine learning and data science techniques learned throughout the bootcamp.  The 5th project is an individual "capstone" project that culminates our bootcamp journey.
-Project 1 uses NYC subway data to help a non-profit find the best subway stations
-to place street teams.
-Project 2 applies linear regression on movie data.
-Project 3 is a classification project.
-Project 4 is an unsupervised, natural language processing (NLP), learning project.
+Just as it says, these are projects that I've worked on at Metis.  There are 4 projects focused on applying the various machine learning and data science techniques learned throughout the bootcamp.  The 5th project is an individual "capstone" project that culminates our bootcamp journey.  
+Project 1 uses NYC subway data to help a non-profit find the best subway stations to place street teams.  
+Project 2 applies linear regression on movie data.  
+Project 3 is a classification project.  
+Project 4 is an unsupervised, natural language processing (NLP), learning project.  
 
 #### Investigations
 Investigations are a chance for students to introduce an interesting application
-of machine learning and data science.
+of machine learning and data science.  
 
 #### Challenges
 Challenges are problem sets to explore topics that are introduced in class in more depth.  They provide a foundation for practical application of machine learning and data science principles using various tools, such as Python, SQL, NoSQL, d3, NLP, Hadoop, etc.  The challenge sets also serve as exploratory analysis for specific project work.  
