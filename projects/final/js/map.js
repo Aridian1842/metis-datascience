@@ -19,7 +19,7 @@ d3.select('#year').text(currentyear);
 
 queue()
     .defer(d3.json, "us.json")
-    .defer(d3.tsv, "trythisfinal.tsv")
+    .defer(d3.tsv, "finaldata.tsv")
     .await(ready)
 
 function ready(error, us, rates) {
