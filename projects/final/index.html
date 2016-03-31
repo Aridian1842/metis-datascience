@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metis Final Project</title>
+        <meta charset="utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style/d3.slider.css" />
+        <link rel="stylesheet" type="text/css" href="style/final.css">
+        <link rel="stylesheet" type="text/css" href="style/scrolling.css">
+
+    </head>
+    <body id='final'>
+      <div id='section1' class='clearfix container cd-section'>
+          <div class='titlegroup'>
+              <h1 class='title text-edark'>U.S. Drug Overdose Deaths by County</h1>
+              <p class='description'><i>Data from the CDC National Vital Statistics System multiple cause-of-death mortality files, using applicable International Classification of Disease, Tenth Revision (ICD-10) codes</i></p>
+          </div>
+          <div class='slidergroup'>
+              <p>
+                  <label for="year">Year :</label>
+                  <span id="year" style="border:0; color:#F62217; font-weight:bold; "></span>
+              </p>
+              <div id="slider" style="width: 300px; margin: 0 10;"></div>
+          </div>
+
+          <div id="map"></div>
+
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+      <script src="http://d3js.org/queue.v1.min.js"></script>
+      <script src="js/d3.slider.js"></script>
+      <script src="js/map.js"></script>
+
+
+    </body>
+    </html>
