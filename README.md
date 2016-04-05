@@ -4,7 +4,8 @@
 ##### Dates Covered:  11 January - 1 April 2016  
 
 This repository consists of data science projects and programming code that I
-worked on at the Winter 2016 cohort, aptly named "DS6".  Metis is an immersive program focused on teaching end-to-end design, implementation and communication of data science projects. A Metis education covers topics in programming, statistics, data acquisition, machine learning, data visualization, relational and non-relational databases, natural language processing, and iterative design.  
+worked on at the Winter 2016 cohort, aptly named "DS6".  
+Metis is an immersive program focused on teaching end-to-end design, implementation and communication of data science projects. A Metis education covers topics in programming, statistics, data acquisition, machine learning, data visualization, relational and non-relational databases, natural language processing, and iterative design.  
 
 Here's what you can find in this repository:  
 
