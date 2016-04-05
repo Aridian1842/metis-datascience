@@ -1,5 +1,5 @@
-# Metis Final Project  
-#### Topic:  *Prescription Drug Abuse in America*  
+##Final Project  
+####*Prescription Drug Abuse in America*  
 
 For my final project I chose to examine prescription drug abuse.  This is a growing epidemic in the U.S. and I wanted to do some exploratory analysis and see what the profile of addiction looks like so we can target prevention and treatment services accordingly.  
 
