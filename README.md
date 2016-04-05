@@ -27,3 +27,6 @@ Challenge 1 is an exploratory data analysis on the MTA's public turnstile data.
 Challenge 2 uses the Python pandas library to analyze movie box office data.  
 Challenges 3-6 focus on supervised learning, specifically Linear Regression, Classification and Error Metrics.  
 Challenge 7 is an SQL learning exercise.  
+
+#### Blog
+Finally, you can read about my bootcamp journey and other data science topics on my blog by clicking [here](https://jasonsyp.github.io/).  
