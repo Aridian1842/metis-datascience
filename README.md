@@ -9,7 +9,7 @@ Metis is an immersive program focused on teaching end-to-end design, implementat
 
 Here's what you can find in this repository:  
 
-#### Projects
+#### [Projects](https://github.com/jasonsyp/metis-datascience/tree/master/projects)
 These are projects that I've worked on at Metis.  Projects are the practical application of the material presented throughout the bootcamp.  There are 4 projects focused on applying the various machine learning and data science techniques learned throughout the bootcamp.  The 5th project is a "capstone" project that culminates our bootcamp journey.  
 Project 1 uses NYC subway data to help a non-profit find the best subway stations to place street teams.  
 Project 2 applies linear regression on movie data.  
@@ -17,16 +17,16 @@ Project 3 is a classification project.
 Project 4 is an unsupervised, natural language processing (NLP) project.  
 Project 5 is the final "capstone" project covering topics up to the students' individual discretion.  
 
-#### Investigations
+#### [Investigations](https://github.com/jasonsyp/metis-datascience/tree/master/investigations)
 Investigations are a chance for students to introduce an interesting application
 of machine learning and data science.  
 
-#### Challenges
+#### [Challenges](https://github.com/jasonsyp/metis-datascience/tree/master/challenges)
 Challenges are problem sets to explore topics that are introduced in class in more depth.  They provide a foundation for practical application of machine learning and data science principles using various tools, such as Python, SQL, NoSQL, D3.js, NLP, Hadoop, etc.  The challenge sets also serve as exploratory analysis for specific project work.  
 Challenge 1 is an exploratory data analysis on the MTA's public turnstile data.  
 Challenge 2 uses the Python pandas library to analyze movie box office data.  
 Challenges 3-6 focus on supervised learning, specifically Linear Regression, Classification and Error Metrics.  
 Challenge 7 is an SQL learning exercise.  
 
-#### Blog
-Finally, you can read about my bootcamp journey and other data science topics on my blog by clicking [here](https://jasonsyp.github.io/).  
+#### [Blog](https://jasonsyp.github.io)
+Finally, you can read more about me and my bootcamp journey, and other data science topics on my blog by clicking [here](https://jasonsyp.github.io/).  
