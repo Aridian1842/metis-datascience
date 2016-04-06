@@ -2,8 +2,8 @@
 ####*Prescription Drug Abuse in America*  
 
 **Files in this repo:**  
-*NSDUH_modeling_and_analysis.ipynb:*  IPython notebook with supervised classification models applied to the NSDUH data.
-*visualization/:*  directory containing all files associated with the D3 visualization.
+*NSDUH_modeling_and_analysis.ipynb:*  IPython notebook with supervised classification models applied to the NSDUH data.  
+*/visualization:*  directory containing all files associated with the D3 visualization.  
 *Metis Final Project - Master.pdf:*  presentation slides given during Metis Career Day, 31 March 2016.  
 
 **Project Description:**  
