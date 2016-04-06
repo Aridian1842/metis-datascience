@@ -1,7 +1,12 @@
 ##Final Project  
 ####*Prescription Drug Abuse in America*  
 
-**Description:**  
+**Files in this repo:**  
+*NSDUH_modeling_and_analysis.ipynb:*  IPython notebook with supervised classification models applied to the NSDUH data.
+*visualization/:*  directory containing all files associated with the D3 visualization.
+*Metis Final Project - Master.pdf:*  presentation slides given during Metis Career Day, 31 March 2016.  
+
+**Project Description:**  
 
 For my final project I chose to examine prescription drug abuse.  This is a growing epidemic in the U.S. and I wanted to do some exploratory analysis and see what the profile of addiction looks like so we can target prevention and treatment services accordingly.  
 
