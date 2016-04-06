@@ -3,7 +3,7 @@ var width = 960,
 
 var currentyear = 2002;
 
-////// Setup the map
+////// SETUP THE MAP
 var color = d3.scale.threshold()
     .domain([0.02, 0.04, 0.06, 0.08, 0.10, 0.12, 0.14, 0.16, 0.18, 0.20, 0.22])
     .range(['#fff7ec','#fee8c8','#fdd49e','#ffffcc','#ffeda0','#fed976','#feb24c','#fd8d3c','#fc4e2a','#e31a1c','#bd0026','#800026']);
@@ -18,8 +18,8 @@ d3.select('#year').text(currentyear);
 
 
 queue()
-    .defer(d3.json, "us.json")
-    .defer(d3.tsv, "finaldata.tsv")
+    .defer(d3.json, "js/us.json")
+    .defer(d3.tsv, "js/finaldata.tsv")
     .await(ready)
 
 function ready(error, us, rates) {
@@ -29,17 +29,13 @@ function ready(error, us, rates) {
 
     console.log(us_data);
 
-    //var rateById = {};
-
-    //rates.forEach(function(d) { rateById[d.id] = +d.rate; });
-
+///// BUILD THE MAP
     svg.append("g")
           .attr("class", "counties")
         .selectAll("path")
           .data(topojson.feature(us, us.objects.counties).features)
         .enter().append("path")
           .attr("d", path)
-          //.style("fill", function(d) { return color(rateById[d.id]); });
           .style("fill", function(d) {
           try { return color(us_data.get(d.id)[currentyear]); }
           catch(err) { return 0; }
@@ -62,16 +58,12 @@ function ready(error, us, rates) {
                 d3.select('#year').text(value);
                 currentyear = value;
 
-                //svg.append("path")
-                  //.attr('d')
-                  //.style("fill", function(d) { return color(us_data.get(d.id)[currentyear]); });
                   svg.append("g")
                         .attr("class", "counties")
                       .selectAll("path")
                         .data(topojson.feature(us, us.objects.counties).features)
                       .enter().append("path")
                         .attr("d", path)
-                        //.style("fill", function(d) { return color(rateById[d.id]); });
                         .style("fill", function(d) {
                         try { return color(us_data.get(d.id)[currentyear]); }
                         catch(err) { return 0; }
