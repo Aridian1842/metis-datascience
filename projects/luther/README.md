@@ -1,6 +1,6 @@
 # Project Luther  
 #### Linear Regression  
-####*Topic:  Sports Movies, Comeback Kid or Down for the Count?*  
+#####*Topic:  Sports Movies, Comeback Kid or Down for the Count?*  
 
 **Files in this repo:**  
 *luther_notebook.ipynb:*  IPython notebook with the data processing and analysis.    
